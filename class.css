@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+    font-family: 'Oswald', sans-serif;
+}
+
+section {
+    /* color: rgb(127, 255, 53); */
+    /* font-family: 'Oswald', sans-serif; */
+
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+
+    /* padding: 0px 0px ; */
+    height: 80px;
+    /* height: 40px; */
+    width: 1263px;
+    /* width: 200px; */
+    background-color: #151b24;
+}
+
+/* .class{ */
+/* display: flex; */
+/* justify-content: space-around; */
+/* align-items: center; */
+/* } */
+
+/* nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* 
+.list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+/* li{
+    list-style: none;
+    text-decoration: none;
+} */
+/* nav ul li a {
+    text-decoration: none;
+    padding: 7px 33px;
+    margin: 0px 8px ;
+    background: rgb(43, 43, 43);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+} */
+
+.type {
+    padding: 16px 5px;
+    position: relative;
+    top: -77px;
+    right: -309px;
+    background-color: rgb(150, 150, 150);
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.input {
+    padding: 18px 4px;
+    position: relative;
+    width: 346px;
+    font-family: 'Oswald', sans-serif;
+    height: 9px;
+    top: -130px;
+    right: -390px;
+    font-size: larger;
+    /* background-color: rgb(150, 150, 150); */
+}
+
+.icon {
+    padding: 18px 4px;
+    position: relative;
+    top: -202px;
+    right: -6px;
+    margin: 0px 732px;
+}
+
+.lang {
+    padding: 15px 1px;
+    position: relative;
+    top: -282px;
+    right: -856px;
+    background-color: #151b24;
+    border-radius: 5px;
+    background-color: rgba(150, 150, 150, 0);
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 32px rgb(81, 81, 81);
+    transition: 0.4s;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.lang:hover {
+    padding: 15px 1px;
+    position: relative;
+    top: -282px;
+    right: -856px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 32px rgb(255, 255, 255);
+    background-color: rgba(150, 150, 150, 0);
+    transition: 0.4s;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.acc {
+    padding: 6px 24px;
+    position: relative;
+    border-radius: 5px;
+    background-color: #151b24;
+    top: -324px;
+    box-shadow: 3px 3px 32px rgb(77, 77, 77);
+    right: -943px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+    font-family: 'Oswald', sans-serif;
+}
+
+.acc:hover {
+    padding: 6px 24px;
+    position: relative;
+    box-shadow: 3px 3px 32px rgb(255, 255, 255);
+    top: -324px;
+    border-radius: 5px;
+    right: -943px;
+    background-color: rgba(150, 150, 150, 0);
+    transition: 0.4s;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 1263px;
+    background-color: rgb(38, 53, 74);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: -12px 11px;
+    padding: 1px 3px;
+    right: 289px;
+    position: relative;
+    transition: 0.4s;
+    font-family: 'Skranji', cursive;
+}
+
+nav ul li:hover {
+    list-style: none;
+    margin: -12px 11px;
+    padding: 8px 3px;
+    right: 289px;
+    position: relative;
+    box-shadow: 0px 0px 11px white;
+    transition: 0.4s;
+
+    font-family: 'Skranji', cursive;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 1px 3px;
+    color: aliceblue;
+    background: rgb(17, 20, 48);
+    border-radius: 3px;
+    color: rgb(230, 208, 42);
+}
+
+#o {
+    list-style: none;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.img1{
+    display: flex;
+    height: 505px;
+    width: 1263px;
+    /* background-size: 1100px; */
+    background-size:cover ;
+    z-index: 1;
+    animation: animateimg 11s infinite;
+}
+
+@keyframes animateimg{
+    0%{
+        background-image: url(/Athleisure_week_up_to_60_Prime_3000x1200._CB585730801_.jpg);
+    }
+    20%{
+        background-image: url(/Desk_1x._CB585733505_.jpg);
+    }
+    40%{
+        background-image: url(/81fJY30GpWL._SX3000_.jpg);
+    }
+    60%{
+        background-image: url(/D108792004_WLD_OnePlus_Waffle_NewLaunch_DesktopTall_Hero_3000x1200._CB586047114_.jpg);
+    }
+    100%{
+        background-image: url(/new.jpg);
+    }
+    120%{
+        background-image: url(/Athleisure_week_up_to_60_Prime_3000x1200._CB585730801_.jpg);
+    
+    }
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -200px;
+    height: 415px;
+    width: 1263px;
+    
+
+    /* background-color: aliceblue; */
+    /* border-color: #000000; */
+}
+.box{
+    border: 5px solid rgb(255, 255, 255);
+    padding: 10px 0px 15px;
+    width: 23%;
+    height: 350px;
+    background-color: aliceblue;
+}
+.box:hover{
+    border: 2px solid black;
+    box-shadow: 2px 2px 22px black;
+    padding: 13px 0px 25px;
+    width: 23%;
+    height: 350px;
+    background-color: aliceblue;
+}
+.img2{
+ height: 250px;
+ background-size:cover ;
+ width: 278px;
+ margin-left: 7px;
+   
+}
+h1{
+    font-size: 2.4rem;
+    margin-left: 7px;
+}
+
+p{
+    font-size: 1.1rem;
+    margin-left: 7px;
+}
+
+.cards1{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -200px;
+    height: 415px;
+    width: 1263px;
+    /* background-image: url(/download.jpeg); */
+    
+
+    /* background-color: aliceblue; */
+    /* border-color: #000000; */
+}
+
+.box1{
+    border: 4px solid rgb(255, 255, 255);
+    padding: 10px 0px 15px;
+    position: relative;
+    background-image: url(/download.png);
+    background-image: linear-gradient( black rgba(255, 255, 255, 0));
+    background-size:cover;
+    /* top: -170px; */
+    right: 50px;
+    width: 113%;
+    height: 350px;
+    color: aliceblue;
+    /* background-color: aliceblue; */
+    z-index: 4;
+
+}
+.box1:hover{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px 0px 25px;
+    position: relative;
+    background-image: url(/download.png);
+    background-image: linear-gradient( black rgba(255, 255, 255, 0));
+    background-size:cover;
+    box-shadow: 2px 2px 22px black;
+    /* top: -170px; */
+    right: 50px;
+    width: 113%;
+    height: 350px;
+    color: rgb(255, 255, 255);
+    /* background-color: aliceblue; */
+    z-index: 4;
+
+}
+
+.box2{
+    border: 4px solid rgb(255, 255, 255);
+    padding: 10px 0px 15px;
+    position: relative;
+    background-image: url(/images.png);
+    background-image: linear-gradient( black rgba(255, 255, 255, 0));
+    background-size:cover;
+    /* top: -170px; */
+    right: 24px;
+    width: 113%;
+    height: 350px;
+    color: aliceblue;
+    /* background-color: aliceblue; */
+    z-index: 4;
+
+}
+
+.box2:hover{
+    border: 4px solid rgb(0, 0, 0);
+    padding: 15px 0px 25px;
+    position: relative;
+    background-image: url(/images.png);
+    background-image: linear-gradient( black rgba(255, 255, 255, 0));
+    background-size:cover;
+    /* top: -170px; */
+    right: 24px;
+    box-shadow: 2px 2px 22px black;
+    width: 113%;
+    height: 350px;
+    color: rgb(254, 254, 254);
+    /* background-color: aliceblue; */
+    z-index: 4;
+
+}
+h2{
+    width: 1130%;
+    height: 25%;
+}
+.rec{
+    width: 100%;
+    height: 55%;
+    position: relative;
+    top: -168px;
+    right: -43px;
+    z-index: 2;
+}
+
+.cards2{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.box3{
+    border: 4px solid rgb(0, 0, 0);
+    width: 90%;
+    height: 350px;
+    z-index: 1;
+    padding: 20px 20px;
+     /* justify-content: center; */
+    display: flex;
+    /* text-align:end;  */
+    position: relative;
+    right:45px;
+    top: -171px;
+}
+
+.sub1{
+    background-image: cover;
+}
+
+
+
+.o1{
+    width: 260px;
+    height: 325px;
+    right:-137px;
+    top: -171px;
+}
